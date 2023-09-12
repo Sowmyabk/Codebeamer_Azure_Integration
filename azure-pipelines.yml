@@ -22,7 +22,7 @@ stages:
             echo "Empty job."
 
          - task: codeBeamer@1
-           inputs:
+          inputs:
             test_xml_folder: 'example/test_results'
             test_run_name: '$(Build.DefinitionName) $(Build.Reason)'
             test_run_id: '$(Build.BuildId)'
@@ -31,4 +31,3 @@ stages:
             cb_password: '$(cb_password)'
             test_configuration_id: '195839'
             test_case_tracker_id: '2439408'
-            test_run_tracker_id: '195841'
