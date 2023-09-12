@@ -20,3 +20,15 @@ stages:
         steps:
          - script:
             echo "Empty job."
+
+            - task: codeBeamer@1
+              inputs: 
+                test_xml_folder:
+                test_run_name:
+                test_run_id:
+                server_url:
+                cb_user:
+                cb_password:
+                test_configuration_id:
+                test_case_tracker_id:
+                test_run_tracker_id:
