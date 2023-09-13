@@ -20,7 +20,6 @@ stages:
         steps:
          - script:
             echo "Empty job."
-     
       - task: codeBeamer@1
         inputs:
           test_xml_folder: '.example/test_results'
