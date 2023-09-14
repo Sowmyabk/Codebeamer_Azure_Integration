@@ -22,7 +22,7 @@ stages:
             echo "Empty job."
          - task: codeBeamer@1
            inputs:
-             test_xml_folder: 'example /test_results'
+             test_xml_folder: 'Codebeamer_Azure_Integration'
              test_run_name: '$(Build.DefinitionName) $(Build.Reason)'
              test_run_id: '$(Build.BuildId)'
              server_url: 'http://192.168.10.90:8083/cb/login.spr'
