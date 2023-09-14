@@ -25,7 +25,7 @@ stages:
              test_xml_folder: 'Codebeamer_Azure_Integration'
              test_run_name: '$(Build.DefinitionName) $(Build.Reason)'
              test_run_id: '$(Build.BuildId)'
-             server_url: 'http://192.168.10.90:8083/cb/login.spr'
+             server_url: 'http://192.168.10.90:8083/cb/rest/user/1'
              cb_user: '$(cb_user)'
              cb_password: '$(cb_password)'
              test_configuration_id: '2143'
